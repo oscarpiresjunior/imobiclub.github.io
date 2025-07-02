@@ -1,12 +1,12 @@
 import React, { useRef, useState } from 'react';
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import PainPointsSection from './components/PainPointsSection';
-import MechanismSection from './components/MechanismSection';
-import BenefitsSection from './components/BenefitsSection';
-import FaqSection from './components/FaqSection';
-import CtaFormSection from './components/CtaFormSection';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import HeroSection from './components/HeroSection.tsx';
+import PainPointsSection from './components/PainPointsSection.tsx';
+import MechanismSection from './components/MechanismSection.tsx';
+import BenefitsSection from './components/BenefitsSection.tsx';
+import FaqSection from './components/FaqSection.tsx';
+import CtaFormSection from './components/CtaFormSection.tsx';
+import Footer from './components/Footer.tsx';
 
 function App() {
   const formRef = useRef<HTMLDivElement>(null);
